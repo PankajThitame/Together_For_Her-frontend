@@ -13,7 +13,7 @@ const AdminSidePanel = () => {
 
   return (
     <div className={`side-panel ${isOpen ? "open" : "closed"}`}>
-     
+      
       <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <FaArrowLeft /> : <FaArrowRight />}
       </button>
